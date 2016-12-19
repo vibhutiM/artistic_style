@@ -38,7 +38,7 @@ README.md
 # Instructions for Running:
  
 For the First Time: Run the file:
-- ./clean_folders.sh
+- ./create_folders.sh
 
 This will create the required folders
 Open style_transfer_vgg.ipynb or style_transfer_alexnet.ipynb
