@@ -11,8 +11,8 @@ Image Synthesis https://arxiv.org/pdf/1601.04589v1.pdf\
 
 
 
-----File Structure--------------------------
-
+-------------------------------------
+# File Structure
 data
 - parameters_alexnet: Pretrained Parameters for Alexnet architecture
 - test: Directory for holding Testing Images
@@ -35,12 +35,13 @@ README.md
 
 ------------------------------------------------------
 
-Instructions for running: 
+# Instructions for Running:
+ 
 For the First Time: Run the file:
 - ./clean_folders.sh
 
 This will create the required folders
-Open style_transfer.ipynb or style_transfer_alexnet.ipynb
+Open style_transfer_vgg.ipynb or style_transfer_alexnet.ipynb
 
 Instructions are well specified in each of the respective files:
 
@@ -53,4 +54,3 @@ Call:
 Set MRF=True for simplified implementation of https://arxiv.org/pdf/1601.04589v1.pdf
 
 ---------------------------------------------------------------------
-
