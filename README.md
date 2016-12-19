@@ -36,17 +36,20 @@ README.md
 ------------------------------------------------------
 
 Instructions for running: 
+For the First Time: Run the file:
+- ./clean_folders.sh
 
+This will create the required folders
 Open style_transfer.ipynb or style_transfer_alexnet.ipynb
 
 Instructions are well specified in each of the respective files:
 
-[-] content_image_path=<path-to-content-image>
-[-] style_image_path=<path-to-style-image>
-[-] style_layers = [List of layers of network to consider for style features]
-[-] content_layers = [Layer for content features]
+- content_image_path=<path-to-content-image>
+- style_image_path=<path-to-style-image>
+- style_layers = [List of layers of network to consider for style features]
+- content_layers = [Layer for content features]
 Call: 
-[-] train_style(alpha=alpha, beta=beta, n_epochs=100,filestring="PREFIX_TOFILE", MRF=False)
+- train_style(alpha=alpha, beta=beta, n_epochs=100,filestring="PREFIX_TOFILE", MRF=False)
 Set MRF=True for simplified implementation of https://arxiv.org/pdf/1601.04589v1.pdf
 
 ---------------------------------------------------------------------
