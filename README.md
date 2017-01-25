@@ -1,4 +1,4 @@
-### Report : E4040.2016Fall.ASVM.report.am4590.ss5136.vm2486.pdf
+#### [Report : E4040.2016Fall.ASVM.report.am4590.ss5136.vm2486.pdf](https://github.com/vibhutiM/artistic_style/blob/master/E4040.2016Fall.ASVM.report.am4590.ss5136.vm2486.pdf)
 This is our implementation of the A Neural Algorithm of Artistic Style https://arxiv.org/abs/1508.06576
 
 We replicate the original papers implementation using two architecures:
